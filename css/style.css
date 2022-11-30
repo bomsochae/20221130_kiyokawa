@@ -1,0 +1,45 @@
+.header_wrapper {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: navy;
+  font-weight: bold;
+}
+
+.header_icon {
+  font-size: 30px;
+}
+
+.header_nav-item {
+  margin-right: 20px;
+  font-size: 16px;
+  display: inline-block;
+  list-style: none;
+}
+
+.parent {
+  position: relative;
+  top: 30px;
+}
+
+.firstview {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.text {
+  position: absolute;
+  bottom: 90px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.border {
+  margin-top: -75px;
+  width: 80%;
+  height: 150px;
+  background-color: navy;
+  z-index: -10;
+}
